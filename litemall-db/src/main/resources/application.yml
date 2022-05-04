@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: db
+  messages:
+    encoding: UTF-8
+
+logging:
+  level:
+    root:  INFO
+    org.springframework:  INFO
+    org.mybatis:  INFO
+    org.linlinjava.litemall.db:  DEBUG
